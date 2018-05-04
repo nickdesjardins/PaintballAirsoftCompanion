@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.pcsquad.paintballairsoftcompanion">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Bomb"
+            android:label="@string/title_activity_bomb"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GameModes"
+            android:label="@string/title_activity_game_modes"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TeamDeathMatch"
+            android:label="@string/title_activity_team_death_match"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrisonBreak"
+            android:label="PrisonBreak"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FireTeam"
+            android:label="@string/title_activity_fire_team"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SquadDeathmatch"
+            android:label="@string/title_activity_squad_deathmatch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchDestroy"
+            android:label="@string/title_activity_search_destroy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Engineer"
+            android:label="@string/title_activity_engineer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DefuseBomb"
+            android:label="DefuseBomb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".President"
+            android:label="@string/title_activity_president"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SupplyCrate"
+            android:label="@string/title_activity_supply_crate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AirSupport"
+            android:label="@string/title_activity_air_support"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CaptureFlag"
+            android:label="@string/title_activity_capture_flag"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pilot"
+            android:label="@string/title_activity_pilot"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Infected"
+            android:label="@string/title_activity_infected"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DDay"
+            android:label="@string/title_activity_dday"
+            android:screenOrientation="portrait" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        -->
+
+        <activity
+            android:name=".BattlePlan"
+            android:label="@string/title_activity_battle_plan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ca.pcsquad.paintballairsoftcompanion.MainActivity" />
+        </activity>
+
+        <!-- Put your Google Maps V2 API Key here. -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBm4JMqDRybX0nUdCWQJ4Cwc4JParLWVaI" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".BattleplanMap"
+            android:label="@string/title_activity_battleplan_map">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ca.pcsquad.paintballairsoftcompanion.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

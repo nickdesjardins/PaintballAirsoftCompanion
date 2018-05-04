@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:id="@+id/frame"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:contentDescription="@string/mainmenu" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:id="@+id/gamemode"
+        android:contentDescription="@string/GameModes" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:id="@+id/bomb"
+        android:contentDescription="@string/bomb" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:id="@+id/battle"
+        android:contentDescription="@string/battleplan" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:id="@+id/about"
+        android:contentDescription="@string/about" />
+
+</LinearLayout>

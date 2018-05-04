@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnBomb" type="id" />
+    <item name="upArrows" type="id" />
+    <item name="btnAddTMin" type="id" />
+    <item name="btnAddMin" type="id" />
+    <item name="btnAddTSec" type="id" />
+    <item name="btnAddSec" type="id" />
+    <item name="counter" type="id" />
+    <item name="downArrow" type="id" />
+    <item name="btnSubTMin" type="id" />
+    <item name="btnSubMin" type="id" />
+    <item name="btnSubTSec" type="id" />
+    <item name="btnSubSec" type="id" />
+    <item name="btn25" type="id" />
+    <item name="btnArm" type="id" />
+    <item name="btnReset" type="id" />
+    <item name="btn50" type="id" />
+    <item name="btn100" type="id" />
+    <item name="btn200" type="id" />
+    <item name="btn400" type="id" />
+    <item name="textBomb" type="id" />
+    <item name="clickTV" type="id" />
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=27:D5:B9:27:FA:16:C3:AD:BA:60:D5:E9:E7:CF:1D:4D:72:DF:B3:DB%3Bca.pcsquad.paintballairsoftcompanion
+
+    You can also add your credentials to an existing key, using this line:
+    27:D5:B9:27:FA:16:C3:AD:BA:60:D5:E9:E7:CF:1D:4D:72:DF:B3:DB;ca.pcsquad.paintballairsoftcompanion
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyDlEXMveyixeqGdhDzws_Aios4OxSKvkxI
+    </string>-->
+
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=F4:EA:D4:ED:C2:1A:94:B4:EC:53:46:BD:25:89:A6:23:71:F3:06:0E%3Bca.pcsquad.paintballairsoftcompanion
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    F4:EA:D4:ED:C2:1A:94:B4:EC:53:46:BD:25:89:A6:23:71:F3:06:0E
+
+    SHA-1 certificate fingerprint:
+    F4:EA:D4:ED:C2:1A:94:B4:EC:53:46:BD:25:89:A6:23:71:F3:06:0E
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false">AIzaSyBm4JMqDRybX0nUdCWQJ4Cwc4JParLWVaI</string>
+</resources>

@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/btnback"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="game" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollview"
+        android:layout_below="@+id/btnback"
+        android:layout_above="@+id/linearlayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:id="@+id/linearlayouttext"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="\n Description:"
+                android:id="@+id/txtdesc0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/txtdesc" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="\nGoal:"
+                android:id="@+id/txtgoals0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/txtgoals" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="\nRespawn:"
+                android:id="@+id/txtrespawn0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/txtrespawn" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="\nNumber of teams:"
+                android:id="@+id/txtteams0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/txtteams" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="\nNumber of players minimum:"
+                android:id="@+id/txtplayers0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/txtplayers" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="\nItem required:"
+                android:id="@+id/txtitems0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/txtitems" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/linearlayout"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:scaleType="fitXY"
+            android:id="@+id/imgrule1"
+            android:contentDescription="teams" />
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:scaleType="fitXY"
+            android:id="@+id/imgrule2"
+            android:contentDescription="teams" />
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:scaleType="fitXY"
+            android:id="@+id/imgrule3"
+            android:contentDescription="teams" />
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:scaleType="fitXY"
+            android:id="@+id/imgrule4"
+            android:contentDescription="teams" />
+    </LinearLayout>
+
+</RelativeLayout>
